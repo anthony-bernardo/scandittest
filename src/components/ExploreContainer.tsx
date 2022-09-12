@@ -8,16 +8,16 @@ const ExploreContainer: React.FC<ContainerProps> = () => {
 	return (
 		<div className="container">
 			<h1>Hi Scandit !</h1>
-			<div id="data-capture-view" className="h-72" />
+			<div id="data-capture-view" style={{ height: '200px' }} />
 			<IonButton
 				onClick={async () => {
 					await ScanditPlugin(
-						() => console.log('success'),
-						() => console.log('error')
+						() => console.log('success =)'),
+						() => console.log('error =(')
 					)
 				}}
 			>
-				Launch Scandit
+				Launch Scandit!!!!!!!
 			</IonButton>
 		</div>
 	)
